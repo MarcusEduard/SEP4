@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sep4.FrontPage">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="400.0" />
+      <ImageView fitHeight="600.0" fitWidth="400.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../resources/com/example/sep4/Background_Blue_Sky.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="onSolFangerButtonClick" alignment="CENTER" contentDisplay="CENTER" layoutX="90.0" layoutY="401.0" mnemonicParsing="false" onAction="#setOnSolFangerButtonClick" text="Thermal Collector">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="onSolcelleButtonClick" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="501.0" mnemonicParsing="false" onAction="#setOnSolcelleButtonClick" prefHeight="51.0" prefWidth="170.0" text="Solar Panel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Text fill="#18c9ff" layoutX="61.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ejby Maskinfabrik">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
